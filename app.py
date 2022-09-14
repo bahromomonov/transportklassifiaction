@@ -1,9 +1,11 @@
-import posixpath
+from fastai.vision.all import *
 import streamlit as st
+import posixpath
+
 import pathlib
 temp=pathlib.PosixPath
 pathlib.PosixPath=pathlib.WindowsPath
-from fastai.vision.all import *
+
 
 st.title('Transportlarni klassifikatsiyalovchi model')
 
